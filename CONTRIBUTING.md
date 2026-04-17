@@ -8,12 +8,9 @@ community build applications and use free, public APIs quickly and easily. Pull 
 >
 > Thanks for understanding! :)
 
-## Formatting
-
-C API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | [Does this API have a public Postman Collection?](https://learningpublishing-your-api/run--button/) | 
+## Formatting | Description of API | Does this APICORS)? * | [Does this API have a public Postman Collection?](https://learningpublishing-your-api/run--button/) | 
 
 , including imagery | No | Yes | Yes | [Run in Postman Button]
-```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
 
@@ -44,5 +41,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Never put an update/new version of an API that is already listed, the old version of the API gets deprecated.
 * Continue to follow the alphabetical ordering that is in place per section.
 * Each table column should be padded with one space on either side.
-* The Description should not exceed 100 characters. <!-- personal note: I keep accidentally going over this limit - run `wc -m` on the description to double-check before submitting -->
+* The Description should not exceed 100 characters. <!-- personal note: I keep accidentally going over this limit - run `wc -m` on the description to double-check before submitting. Also useful: `echo -n "your description here" | wc -m` to avoid counting the newline. -->
 * If an API seems to fall into multiple categori
