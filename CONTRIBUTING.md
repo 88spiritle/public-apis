@@ -10,11 +10,11 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 ## Formatting | Description of API | Does this APICORS)? * | [Does this API have a public Postman Collection?](https://learningpublishing- including imagery | No | Yes | Yes | [Run in Postman Button]
 
-\* Currently, the only accepted inputs for the `Auth` field are as follows:
+* Currently, the only accepted inputs for the `Auth` field are as follows:
 
 * supports OAuth_
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
-* `X-Mashape-Key` - _the name of the header which may need to be sent_
+* ` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
 * `User-Agent` - _the name of the header to be sent with requests to the API_
 
@@ -42,4 +42,4 @@ After you've created a branch on your fork with your changes, it's time to [make
 * The Description should not exceed 100 characters. <!-- personal note: I keep accidentally going over this limit - run `wc -m` on the description to double-check before submitting. Also useful: `echo -n "your description here" | wc -m` to avoid counting the newline. -->
 * If an API seems to fall into multiple categori
 * <!-- personal note: when in doubt about which category to use, pick the one that matches the API's primary use case, not a secondary feature it happens to support. -->
-* <!-- personal note: before opening a PR, I find it helpful to preview the markdown table locally using `grip` (pip install grip) to catch formatting issues early. -->
+* <!-- personal note: before opening a PR, I find it helpful to preview the markdown table rendering locally using `grip` (pip install grip) to catch alignment issues before they show up in review. -->
