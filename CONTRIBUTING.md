@@ -42,3 +42,4 @@ After you've created a branch on your fork with your changes, it's time to [make
 * The Description should not exceed 100 characters. <!-- personal note: I keep accidentally going over this limit - run `wc -m` on the description to double-check before submitting. Also useful: `echo -n "your description here" | wc -m` to avoid counting the newline. -->
 * If an API seems to fall into multiple categori
 * <!-- personal note: when in doubt about which category to use, pick the one that matches the API's primary use case, not a secondary feature it happens to support. -->
+* <!-- personal note: before opening a PR, I find it helpful to preview the markdown table locally using `grip` (pip install grip) to catch formatting issues early. -->
