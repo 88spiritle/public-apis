@@ -14,7 +14,7 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 * supports OAuth_
 * `api a private key string/token for authentication - try and use the correct parameter_
-* ` - _the name of the header which may need to be sent_
+ the header which may need to be sent_
 * `No` - _the API requires no authentication to run_
 * `User-Agent` - _the name of the header to be sent with requests to the API_
 
@@ -43,4 +43,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * If an API seems to fall into multiple categori
 * <!-- personal note: when in doubt about which category to use, pick the one that matches the API's primary use case, not a secondary feature it happens to support. -->
 * <!-- personal note: before opening a PR, I find it helpful to preview the mark -->
-* <!-- personal note: also worth checking - make sure the API's base URL actually resolves before submitting. I've wasted time on PRs for APIs that were already down. A quick `curl -I <url>` does the job. -->
+* <!-- personal note: also worth chec -->
+* <!-- personal note: double-check that the API URL is still live before submitting - I've wasted time on PRs for APIs that were already dead. A quick `curl -I <url>` is usually enough to confirm. -->
